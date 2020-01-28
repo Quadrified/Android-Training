@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 /*Creating a Random class Object to generate Random Numbers*/
+
                 Random rndObj = new Random ();
                 int myRandomNumber = rndObj.nextInt (6); // Bound gives random number between 0 .. 5
 
