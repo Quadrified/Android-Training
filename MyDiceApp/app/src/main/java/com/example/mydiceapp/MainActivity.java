@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
+
 import com.daimajia.androidanimations.library.Techniques;
 import com.daimajia.androidanimations.library.YoYo;
 
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         final int[] DiceArray = {R.drawable.dice1, R.drawable.dice2, R.drawable.dice3, R.drawable.dice4, R.drawable.dice5, R.drawable.dice6,};
 
         Button btnRoll = findViewById(R.id.btnRoll);
+
         final MediaPlayer mp = MediaPlayer.create(this, R.raw.dice_sound);
 
         btnRoll.setOnClickListener(new View.OnClickListener() {

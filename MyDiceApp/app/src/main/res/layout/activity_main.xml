@@ -29,6 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="18dp"
         android:background="#00574B"
+        android:hapticFeedbackEnabled="true"
         android:text="Roll the Dice"
         android:textColor="#fff" />
 
@@ -51,6 +52,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="50"
             android:src="@drawable/dice2" />
+
     </LinearLayout>
 
 </LinearLayout>
