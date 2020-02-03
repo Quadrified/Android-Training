@@ -26,4 +26,5 @@ A place for all the useful links I discovered all along my android programming j
 	* [Official Android Guide](https://developer.android.com/guide)
 	* [Final Resizer](https://github.com/asystat/Final-Android-Resizer)
 	* [Android View Animations](https://github.com/daimajia/AndroidViewAnimations)
+	* [Material Pallete (for colors, icons)](https://www.materialpalette.com/)
 	
