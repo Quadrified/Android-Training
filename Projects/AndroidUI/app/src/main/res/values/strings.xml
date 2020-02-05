@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AndroidUI</string>
+
+    <string name="left_button_text">Previous song</string>
+    <string name="right_button_text">Next song</string>
+    <string name="bottom_button_text">Play song</string>
+
+
+</resources>
