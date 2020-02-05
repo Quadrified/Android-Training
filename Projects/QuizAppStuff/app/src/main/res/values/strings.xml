@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Quiz App</string>
+    <string name="app_name">Quizzly</string>
 
     <string name="correct_text">Correct! :D</string>
     <string name="incorrect_text">Incorrect! Try again :(</string>
