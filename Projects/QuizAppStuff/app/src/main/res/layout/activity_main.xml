@@ -10,7 +10,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/topTxt"
+        android:id="@+id/textQuestions"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -27,13 +27,13 @@
         android:layout_weight="1" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txtStats"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:layout_weight="1"
         android:gravity="center|center_horizontal|center_vertical"
-        android:text="TextView" />
+        android:text="@string/first_score_text" />
 
     <Button
         android:id="@+id/btnTrue"
@@ -41,11 +41,10 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:layout_weight="1"
-        android:background="#0000ee"
+        android:background="@drawable/shapes"
         android:text="True"
         android:textColor="#FFF"
-        android:textSize="20sp"
-        />
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btnFalse"
@@ -53,7 +52,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:layout_weight="1"
-        android:background="#ee0000"
+        android:background="@drawable/redbutton"
         android:text="False"
         android:textColor="#FFF"
         android:textSize="20sp" />

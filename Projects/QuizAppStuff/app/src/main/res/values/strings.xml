@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">QuizAppStuff</string>
+    <string name="app_name">Quiz App</string>
+
+    <string name="correct_text">Correct! :D</string>
+    <string name="incorrect_text">Incorrect! Try again :(</string>
+    <string name="first_score_text">0/5</string>
+    <string name="correct_toast_message">Yay! That is correct!</string>
+    <string name="incorrect_toast_message">Oops,That is incorrect!</string>
+
+    <string name="q1">Animals that lay eggs don\'t have belly buttons</string>
+    <string name="q2">Slugs have four noses</string>
+    <string name="q3">My name is Qureshi</string>
+    <string name="q4">Ritesh is a \"Scientist\"</string>
+    <string name="q5">Phani is PhaniBoi</string>
+
 </resources>
