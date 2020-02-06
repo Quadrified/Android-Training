@@ -21,11 +21,9 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView mTxtQuestion, mStats;
     private ProgressBar mProgressbar;
-    private Button btnTrue;
-    private Button btnFalse;
+    private Button btnTrue, btnFalse;
     private int mQuestionIndex; // Initial value: 0
-    private int mQuizQuestion;
-    private int mUserScore;
+    private int mQuizQuestion, mUserScore;
 
     private QuizModel[] questionCollection = new QuizModel[]{
 
@@ -180,7 +178,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onSaveInstanceState (Bundle outState) {
         super.onSaveInstanceState(outState);
 
-        outState.putInt(SCORE_KEY, mUserScore);
+        outState.putInt(SCORE_KEY, mUserScore); // {Key, Value} pair
         outState.putInt(INDEX_KEY, mQuestionIndex);
     }
 }
