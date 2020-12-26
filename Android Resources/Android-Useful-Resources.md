@@ -1,4 +1,4 @@
-# Android USeful Resources
+# Android Useful Resources
 A place for all the useful links I discovered all along my android programming journey.
 
 ## Git and GitHub tutorial
